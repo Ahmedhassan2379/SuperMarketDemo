@@ -17,7 +17,7 @@ namespace SuperMarketDemo
         {
             InitializeComponent();
         }
-        SqlConnection conn = new SqlConnection(@"Data Source=SW-A-HASSAN;Initial Catalog=SuperMarketdb;Integrated Security=True;");
+        SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-G7GOH9P\SQLEXPRESS;Initial Catalog=SuperMarketdb;Integrated Security=True;");
         private void button2_Click(object sender, EventArgs e)
         {
             CategoryForm cat = new CategoryForm();
